@@ -14,7 +14,7 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "npm run start:mocks",
+    "start": "npm run client:mocks",
     "build": "ng build",
     "build:prod": "ng build --aot=false --target=production",
     "pretest": "npm run lint",
